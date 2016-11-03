@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: personalityinsights-demo
+  host: personalityinsights-demo
+  disk_quota: 1024M
+  services:
+  - celebritymatch-demo-personality_insights
+  - availability-monitoring-auto
